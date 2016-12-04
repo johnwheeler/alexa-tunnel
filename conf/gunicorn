@@ -1,0 +1,11 @@
+CONFIG = {
+    'working_dir': '/var/www/html/2localhost',
+    # Note - the same version of gunicorn should be installed
+    # in the virtualenv below
+    'python': '/var/www/html/2localhost/env/bin/python',
+    'args': (
+        '--workers=3',
+        '-k flask_sockets.worker',
+        'tolocalhost.server:app',
+    ),
+}

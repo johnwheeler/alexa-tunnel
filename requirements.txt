@@ -1,0 +1,6 @@
+click==6.6
+Flask==0.11.1
+requests==2.11.1
+shortuuid==0.4.3
+websocket-client==0.37.0
+xerox==0.4.1
